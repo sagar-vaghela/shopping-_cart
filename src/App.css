@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4 !important;
+}
+.product {
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: auto;
+  max-width: 250px;
+}
+.root_div {
+  margin-top: 90px !important;
+}
+/* .card_div{
+    min-width: 425px !important;
+} */
+.details {
+  padding: 120px 0 !important;
+}
+.btn_cart {
+  width: 50% !important;
+}
+@media screen and (min-width: 576px) {
+  .btn_cart {
+    width: 25% !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .root_div {
+    max-width: 2600px !important;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Toastify__toast-container {
+    width: 100% !important;
+    padding: 0 20px !important;
+  }
+}
